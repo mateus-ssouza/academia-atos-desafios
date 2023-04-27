@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="index.html">Fut Score</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sec-cont">
+        <h2>Entre em contato conosco</h2>
+        
+        <form id="form-cont" action="mensagem.html" method="get">
+            <h3>Informações do contato:</h3>
+
+            <label class="label-cont" for="nome">Nome:</label>
+            <input class="input-cont" type="text" name="nome" id="nome" required>
+
+            <label class="label-cont" for="email">E-mail:</label>
+            <input class="input-cont" type="email" id="email" name="email" required>
+
+            <label class="label-cont" for="mensagem">Mensagem:</label>
+            <textarea class="textarea-cont" id="mensagem" name="mensagem" rows="5" cols="50"></textarea>
+
+            <div id="buttons">
+                <button class="button-cont" type="submit">Enviar</button>
+                <button class="button-cont" type="reset">Limpar</button>
+            </div>
+            
+        </form>
+
+    </section>
+    <footer>
+        <p>Copyright &copy; - Fut Score 2023</p>
+    </footer>
+</body>
+
+</html>
